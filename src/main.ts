@@ -15,7 +15,11 @@ function Task(){
 
     //mark task complete
     node.addEventListener('click', () =>{
-      node.setAttribute("class", "complete");
+      if (node.getAttribute("class") === 'complete'){
+        node.setAttribute("class","items")
+      }
+      else {node.setAttribute("class", "complete");}
+      
     })
 
     // add text
