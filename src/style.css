@@ -1,21 +1,24 @@
-body{
+body {
   background: linear-gradient(270deg, rgb(28, 27, 27), purple)
 }
-.app{
+
+.app {
   background: linear-gradient(270deg, rgb(200, 188, 188), rgb(108, 11, 182));
   width: 50%;
   border-radius: 25px;
   margin: auto;
   padding: 1rem;
 }
-#header{
-  text-align: center;
-}
-#header_tasks{
-  text-align: center;
-}
-.task{
 
+#header {
+  text-align: center;
+}
+
+#header_tasks {
+  text-align: center;
+}
+
+.task {
   text-align: center;
 }
 
@@ -25,13 +28,13 @@ body{
   width: 150px;
 } 
 
-.cart{
+.cart {
   text-align: center;
   background-color: black;
   width: 150PX;
 }
 
-.complete{
+.complete {
   text-align: center;
   font-size: large;
   text-decoration: line-through;
@@ -40,7 +43,7 @@ body{
   margin-bottom: .5rem;
 }
 
-.delete_button{
+.delete_button {
   margin-left: 15px;
   width: 10px;
   height: 15px;
@@ -49,12 +52,12 @@ body{
   border-radius: 50%;
 }
 
-.items{
+.items {
   font-size: large;
   border: 1rem;
   margin-bottom: .5rem;
 }
 
-#add_task{
+#add_task {
   background-color: yellow;
 }
