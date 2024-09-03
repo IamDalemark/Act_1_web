@@ -1,5 +1,5 @@
 import './style.css'
-const placehold = document.querySelector('#input') as HTMLInputElement
+const placehold = document.querySelector('#input') as HTMLInputElement;
 placehold.placeholder = "Enter your Task";
 
 function Task(){
@@ -15,7 +15,7 @@ function Task(){
 
     //mark task complete
     node.addEventListener('click', () =>{
-      node.setAttribute("class", "complete")
+      node.setAttribute("class", "complete");
     })
 
     // add text
@@ -23,26 +23,26 @@ function Task(){
 
 
     // delete button
-    const button = document.createElement("button")
-    button.setAttribute('class', 'delete_button')
+    const button = document.createElement("button");
+    button.setAttribute('class', 'delete_button');
     node.setAttribute("id", value_no_space); // li id
-    node.setAttribute("class", 'items')
+    node.setAttribute("class", 'items');
     node.appendChild(button);
 
 
     //remove task
     button.addEventListener("click", () => {
 
-      document.querySelector(`#${value_no_space}`)?.remove()
+      document.querySelector(`#${value_no_space}`)?.remove();
 
     })
     // add to ul
     document.querySelector("#cart")!.appendChild(node);
-    item_name!.value = ''
+    item_name!.value = '';
   })
 }
 
 
 
-Task()
+Task();
 
