@@ -1,0 +1,60 @@
+body{
+  background: linear-gradient(270deg, rgb(28, 27, 27), purple)
+}
+.app{
+  background: linear-gradient(270deg, rgb(200, 188, 188), rgb(108, 11, 182));
+  width: 50%;
+  border-radius: 25px;
+  margin: auto;
+  padding: 1rem;
+}
+#header{
+  text-align: center;
+}
+#header_tasks{
+  text-align: center;
+}
+.task{
+
+  text-align: center;
+}
+
+#cart{
+  margin: auto;
+  text-align: center;
+  width: 150px;
+} 
+
+.cart{
+  text-align: center;
+  background-color: black;
+  width: 150PX;
+}
+
+.complete{
+  text-align: center;
+  font-size: large;
+  text-decoration: line-through;
+  color: rgb(255, 255, 255);
+  border: 1rem;
+  margin-bottom: .5rem;
+}
+
+.delete_button{
+  margin-left: 15px;
+  width: 10px;
+  height: 15px;
+  color: red;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.items{
+  font-size: large;
+  border: 1rem;
+  margin-bottom: .5rem;
+}
+
+#add_task{
+  background-color: yellow;
+}
