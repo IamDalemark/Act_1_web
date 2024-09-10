@@ -10,15 +10,17 @@
     <div class="app">
     <H1 id="header">TO DO LIST</H1>
     <div class="task">
-      <input type="text" id="input" name="item">
+      <input placeholder="Enter you task" type="text" id="input" name="item">
+      <input type="date" id="due_date"></input>
+      <input type="time" id="due_time"></input>
+    </div>
+    <div class="buttons">
       <button id="add_task">Add task</button>
+      <button id="sort_time">sort-time</button>
     </div>
     <H3 id="header_tasks">TASKS</H3>
-    <ul id="cart">
-    </ul>
-  
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <ul id="cart"></ul>
   </div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

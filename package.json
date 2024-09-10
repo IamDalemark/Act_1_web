@@ -11,5 +11,9 @@
   "devDependencies": {
     "typescript": "^5.5.3",
     "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "date-and-time": "^3.5.0",
+    "react-calendar": "^5.0.0"
   }
 }

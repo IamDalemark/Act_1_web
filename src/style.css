@@ -1,10 +1,11 @@
 body {
-  background: linear-gradient(270deg, rgb(28, 27, 27), purple)
+  background: linear-gradient(270deg, #F9E795, #F96167)
 }
 
 .app {
-  background: linear-gradient(270deg, rgb(200, 188, 188), rgb(108, 11, 182));
-  width: 50%;
+  background: linear-gradient(270deg,#EA738D, #89ABE3);
+  width: 80%;
+  height: 80%;
   border-radius: 25px;
   margin: auto;
   padding: 1rem;
@@ -25,13 +26,11 @@ body {
 #cart{
   margin: auto;
   text-align: center;
-  width: 150px;
 } 
 
 .cart {
   text-align: center;
   background-color: black;
-  width: 150PX;
 }
 
 .complete {
@@ -52,6 +51,14 @@ body {
   border-radius: 50%;
 }
 
+.expire{
+  font-size: large;
+  border: 1rem;
+  margin-bottom: .5rem;
+  color: rgb(119, 8, 8);
+  text-decoration:solid;
+}
+
 .items {
   font-size: large;
   border: 1rem;
@@ -59,5 +66,20 @@ body {
 }
 
 #add_task {
-  background-color: yellow;
+  background-color: rgb(149, 166, 214);
+  display: flex;
+  justify-content: center;
+}
+#sort_time{
+  display: flex;
+  justify-content: center;
+}
+#input{
+  width: 150px;
+}
+
+.buttons{
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
 }
